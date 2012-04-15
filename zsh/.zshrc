@@ -17,6 +17,7 @@ autoload -U compinit
 compinit
 
 alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias ll="ls -lha"
 
 bindkey "^[[3~" delete-char
 bindkey '^[[H' beginning-of-line
