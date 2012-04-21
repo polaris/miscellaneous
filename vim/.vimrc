@@ -24,6 +24,7 @@ set number                        " Show line numbers.
 set ruler                         " Show cursor position.
 
 set incsearch                     " Highlight matches as you type.
+set showmatch
 set hlsearch                      " Highlight matches.
 
 set wrap                          " Turn on line wrapping.
