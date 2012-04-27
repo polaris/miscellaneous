@@ -40,6 +40,10 @@ set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
 
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
 colorscheme xoria256
 
 set go-=T
