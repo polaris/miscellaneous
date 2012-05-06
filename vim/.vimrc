@@ -47,3 +47,5 @@ endif
 colorscheme xoria256
 
 set go-=T
+
+set mouse=a
