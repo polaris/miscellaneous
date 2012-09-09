@@ -44,7 +44,7 @@ if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
 
-colorscheme xoria256
+colorscheme desert
 
 set go-=T
 
