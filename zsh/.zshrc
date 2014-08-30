@@ -21,11 +21,11 @@ colors
 setopt prompt_subst
 
 # Prompt
-local icon="%(?,%{$fg[green]%}✓%{$reset_color%},%{$fg[red]%}✗%{$reset_color%})"
+local icon="%(?,%{$fg[green]%}>%{$reset_color%},%{$fg[red]%}>%{$reset_color%})"
 
 PROMPT='
 %~
-${icon}  %{$reset_color%}'
+${icon} %{$reset_color%}'
 
 setopt menucomplete
 setopt completealiases
