@@ -24,7 +24,7 @@ setopt prompt_subst
 local icon="%(?,%{$fg[green]%}>%{$reset_color%},%{$fg[red]%}>%{$reset_color%})"
 
 PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} %~
+%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %~
 ${icon} %{$reset_color%}'
 
 setopt menucomplete
