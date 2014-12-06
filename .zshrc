@@ -20,8 +20,8 @@ SAVEHIST=$HISTSIZE
 local icon="%(?,%{$fg[green]%}>%{$reset_color%},%{$fg[red]%}>%{$reset_color%})"
 
 PROMPT='
-%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %~
+%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[blue]%}%m%{$reset_color%} in %~
 ${icon} %{$reset_color%}'
 
 alias ll="ls -lha"
-
+alias startx="ssh-agent startx"
