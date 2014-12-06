@@ -25,3 +25,6 @@ ${icon} %{$reset_color%}'
 
 alias ll="ls -lha"
 alias startx="ssh-agent startx"
+
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
+eval $(keychain --eval --agents ssh -Q --quiet id_rsa)
